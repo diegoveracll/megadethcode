@@ -12,8 +12,8 @@
   button {
     background-color: #1a1a1a;
     border-radius: 10px;
-    color: $white-smoke;
-    border: 1px solid $white-smoke;
+    color: variables.$white-smoke;
+    border: 1px solid variables.$white-smoke;
     width: 70%;
     height: 33px;
   }
@@ -29,12 +29,12 @@
 }
 
 .listadeconciertos {
-  background-color: $gray;
+  background-color: variables.$gray;
   border-radius: 8px;
 }
 
 .informacion {
-  color: $white-smoke;
+  color: variables.$white-smoke;
 }
 
 .btn-comprar {
@@ -48,13 +48,13 @@
   transition: 0.2s;
 
   &:hover {
-    background-color: $orange;
+    background-color: variables.$orange;
     color: #ddd;
   }
 }
 
 .btn-siguiente {
-  background-color: $gray-medium;
+  background-color: variables.$gray-medium;
   color: white;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -63,7 +63,7 @@
   transition: 0.2s;
 
   &:hover {
-    background-color: $gray-dark;
+    background-color: variables.$gray-dark;
     color: white;
   }
 }
@@ -83,7 +83,7 @@
     transition: color 0.3s ease;
 
     &:hover {
-      color: $orange;
+      color: variables.$orange;
     }
   }
 }
@@ -127,7 +127,7 @@
   }
 
   input[type="submit"] {
-    background-color: $gray-medium;
+    background-color: variables.$gray-medium;
     color: white;
     border: none;
     padding: 10px 16px;
@@ -137,7 +137,7 @@
     transition: background-color 0.3s ease;
 
     &:hover {
-      background-color: $gray-dark;
+      background-color: variables.$gray-dark;
     }
   }
 

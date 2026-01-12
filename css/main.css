@@ -181,9 +181,7 @@ footer h2 {
 .newsletter input[type=submit]:hover {
   background-color: #333;
 }
-.newsletter {
-  /* Para alinear email y botón en la misma fila */
-}
+
 .newsletter input[type=email],
 .newsletter input[type=submit] {
   display: inline-block;

@@ -1,5 +1,5 @@
 header {
-  background-color: $black;
+  background-color: variables.$black;
   padding: 20px 30px;
   display: flex;
   flex-direction: row;
@@ -9,10 +9,10 @@ header {
 }
 
 .menuNavegacion {
-  background-color: $black;
+  background-color: variables.$black;
 
   a {
-    color: $white-smoke;
+    color: variables.$white-smoke;
     text-decoration: none;
   }
 }
@@ -22,7 +22,7 @@ footer {
   padding: 2rem;
   background-color: #fff;
   color: #1a1a1a;
-  font-family: $font-base;
+  font-family: variables.$font-base;
 
   h2 {
     font-size: 1.8rem;
