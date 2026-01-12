@@ -174,3 +174,19 @@
     margin: 15px 0;
   }
 }
+/* Disco */
+.disco {
+  @include mixins.text-center;
+
+  img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: variables.$gray-light;
+    object-fit: cover;
+  }
+
+  h3 {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+}

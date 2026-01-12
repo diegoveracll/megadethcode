@@ -216,6 +216,21 @@ h2 {
   margin: 15px 0;
 }
 
+/* Disco */
+.disco {
+  text-align: center;
+}
+.disco img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  background-color: gainsboro;
+  object-fit: cover;
+}
+.disco h3 {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
 #section-cards {
   background-color: gainsboro;
   padding: 40px 0;
@@ -333,6 +348,13 @@ h2 {
   max-width: 300px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.discografia {
+  margin-top: 40px;
+}
+.discografia h2 {
+  margin-bottom: 10px;
 }
 
 @media (min-width: 480px) {
