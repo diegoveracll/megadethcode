@@ -1,0 +1,126 @@
+#section-cards {
+  background-color: $gray-light;
+  padding: 40px 0;
+  text-align: center;
+
+  h2 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+  }
+}
+
+#section-video {
+  background-color: $gray-light;
+  padding: 40px 10%;
+  text-align: center;
+
+  h2 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+  }
+}
+
+.banda {
+  background-color: $gray-light;
+  padding: 40px 0;
+  text-align: center;
+
+  h2 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+  }
+}
+
+.tour {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  hr {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+}
+
+.buscador input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.listadeconciertos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.concierto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px 20px;
+  background-color: black;
+
+  .informacion p {
+    margin: 5px 0;
+  }
+}
+
+.paginacion {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.historia {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+
+  h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+  }
+}
+
+.bloque {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.texto {
+  flex: 1;
+}
+
+.imagen {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+}
