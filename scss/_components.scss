@@ -1,3 +1,6 @@
+@use "variables";
+@use "mixins";
+
 .imagenbanner,
 .imagenbanner2,
 .imagenbannertour {
@@ -145,5 +148,29 @@
   input[type="email"],
   input[type="submit"] {
     display: inline-block;
+  }
+}
+.buscador {
+  @include mixins.flex(flex-start, center);
+  input {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid variables.$gray;
+    border-radius: 4px;
+  }
+}
+.producto {
+  text-align: center;
+
+  img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    background-color: variables.$gray-light;
+  }
+
+  h3 {
+    font-size: 16px;
+    margin: 15px 0;
   }
 }

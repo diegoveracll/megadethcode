@@ -10,7 +10,7 @@ main {
 }
 
 h1 {
-  color: whitesmoke;
+  color: #f5f5f5;
 }
 
 ul {
@@ -31,7 +31,7 @@ header {
   background-color: black;
 }
 .menuNavegacion a {
-  color: whitesmoke;
+  color: #f5f5f5;
   text-decoration: none;
 }
 
@@ -42,7 +42,8 @@ footer {
   color: #1a1a1a;
   font-family: Arial, sans-serif;
 }
-footer h2 {
+
+h2 {
   font-size: 1.8rem;
   letter-spacing: 0px;
   margin-bottom: 1rem;
@@ -62,8 +63,8 @@ footer h2 {
 .articleNews button {
   background-color: #1a1a1a;
   border-radius: 10px;
-  color: whitesmoke;
-  border: 1px solid whitesmoke;
+  color: #f5f5f5;
+  border: 1px solid #f5f5f5;
   width: 70%;
   height: 33px;
 }
@@ -83,7 +84,7 @@ footer h2 {
 }
 
 .informacion {
-  color: whitesmoke;
+  color: #f5f5f5;
 }
 
 .btn-comprar {
@@ -181,10 +182,38 @@ footer h2 {
 .newsletter input[type=submit]:hover {
   background-color: #333;
 }
-
+.newsletter {
+  /* Para alinear email y botón en la misma fila */
+}
 .newsletter input[type=email],
 .newsletter input[type=submit] {
   display: inline-block;
+}
+
+.buscador {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.buscador input {
+  padding: 8px;
+  width: 250px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.producto {
+  text-align: center;
+}
+.producto img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  background-color: gainsboro;
+}
+.producto h3 {
+  font-size: 16px;
+  margin: 15px 0;
 }
 
 #section-cards {
@@ -338,3 +367,5 @@ footer h2 {
     margin-bottom: 20px;
   }
 }
+
+/*# sourceMappingURL=main.css.map */
